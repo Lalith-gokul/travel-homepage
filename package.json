@@ -1,0 +1,17 @@
+{
+  "name": "travel-homepage",
+  "version": "1.0.0",
+  "description": "lalith project",
+  "main": "index.js",
+  "scripts": {
+    "compile-css": "sass styles/homepage.scss dist/homepage.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "sass": "^1.66.1"
+  }
+}
